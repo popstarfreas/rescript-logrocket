@@ -1,0 +1,6 @@
+{
+  "name": "@popstarfreas/rescript-logrocket",
+  "sources": {
+    "dir": "src"
+  }
+}
