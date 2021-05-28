@@ -25,3 +25,5 @@ type captureData<'a, 'b> = {
 @module("logrocket") external captureExceptionWithData: (Js.Exn.t, captureData<'a, 'b>) => unit = "captureException"
 @module("logrocket") external captureMessageWithData: (string, captureData<'a, 'b>) => unit = "captureMessage"
 @module("logrocket") external initWithOptions: (string, options) => unit = "init"
+@module("logrocket") external track: (string) => unit = "track"
+@module("logrocket") external version: string = "version"
