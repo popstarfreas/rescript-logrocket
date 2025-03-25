@@ -7,7 +7,7 @@
     "build": "rescript build"
   },
   "dependencies": {
-    "rescript": "^9.1.2"
+    "rescript": "^11.1.4"
   },
   "peerDependencies": {
     "logrocket": "^1.2.2"
